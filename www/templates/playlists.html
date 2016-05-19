@@ -1,0 +1,13 @@
+<ion-view view-title="Playlists">
+    <ion-content>
+        <ion-list style="height: 70%">
+            <ion-item ng-repeat="playlist in playlists">
+                {{playlist}}
+            </ion-item>
+            <a id="theBottom" style="height: 30px"></a>
+        </ion-list>
+    <div class="bar bar-footer bar-balanced" ng-click="onAddName();">
+        <div class="title">Add Name</div>
+    </div>
+    </ion-content>
+</ion-view>
